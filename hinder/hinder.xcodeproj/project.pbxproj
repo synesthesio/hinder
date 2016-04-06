@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		253A42111CB5C0C600CE0524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42101CB5C0C600CE0524 /* AppDelegate.swift */; };
-		253A42131CB5C0C600CE0524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42121CB5C0C600CE0524 /* ViewController.swift */; };
 		253A42161CB5C0C600CE0524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253A42141CB5C0C600CE0524 /* Main.storyboard */; };
 		253A42191CB5C0C600CE0524 /* hinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 253A42171CB5C0C600CE0524 /* hinder.xcdatamodeld */; };
 		253A421B1CB5C0C600CE0524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253A421A1CB5C0C600CE0524 /* Assets.xcassets */; };
 		253A421E1CB5C0C600CE0524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253A421C1CB5C0C600CE0524 /* LaunchScreen.storyboard */; };
+		253A42281CB5C6A100CE0524 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42271CB5C6A100CE0524 /* GalleryViewController.swift */; };
+		253A422A1CB5C87C00CE0524 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42291CB5C87C00CE0524 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		253A420D1CB5C0C500CE0524 /* hinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253A42101CB5C0C600CE0524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		253A42121CB5C0C600CE0524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		253A42151CB5C0C600CE0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		253A42181CB5C0C600CE0524 /* hinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hinder.xcdatamodel; sourceTree = "<group>"; };
 		253A421A1CB5C0C600CE0524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		253A421D1CB5C0C600CE0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		253A421F1CB5C0C600CE0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253A42271CB5C6A100CE0524 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		253A42291CB5C87C00CE0524 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				253A42101CB5C0C600CE0524 /* AppDelegate.swift */,
-				253A42121CB5C0C600CE0524 /* ViewController.swift */,
+				253A42271CB5C6A100CE0524 /* GalleryViewController.swift */,
+				253A42291CB5C87C00CE0524 /* HomePageViewController.swift */,
 				253A42141CB5C0C600CE0524 /* Main.storyboard */,
 				253A421A1CB5C0C600CE0524 /* Assets.xcassets */,
 				253A421C1CB5C0C600CE0524 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				253A42131CB5C0C600CE0524 /* ViewController.swift in Sources */,
+				253A422A1CB5C87C00CE0524 /* HomePageViewController.swift in Sources */,
+				253A42281CB5C6A100CE0524 /* GalleryViewController.swift in Sources */,
 				253A42111CB5C0C600CE0524 /* AppDelegate.swift in Sources */,
 				253A42191CB5C0C600CE0524 /* hinder.xcdatamodeld in Sources */,
 			);
