@@ -14,6 +14,8 @@
 		253A421E1CB5C0C600CE0524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253A421C1CB5C0C600CE0524 /* LaunchScreen.storyboard */; };
 		253A42281CB5C6A100CE0524 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42271CB5C6A100CE0524 /* GalleryViewController.swift */; };
 		253A422A1CB5C87C00CE0524 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A42291CB5C87C00CE0524 /* HomePageViewController.swift */; };
+		253A422E1CB5D03A00CE0524 /* hinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253A422D1CB5D03A00CE0524 /* hinAPI.swift */; };
+		258C1EFC1CB700A1001C64CE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258C1EFB1CB700A1001C64CE /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		253A421F1CB5C0C600CE0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		253A42271CB5C6A100CE0524 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		253A42291CB5C87C00CE0524 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		253A422D1CB5D03A00CE0524 /* hinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hinAPI.swift; sourceTree = "<group>"; };
+		258C1EFB1CB700A1001C64CE /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				253A42101CB5C0C600CE0524 /* AppDelegate.swift */,
-				253A42271CB5C6A100CE0524 /* GalleryViewController.swift */,
+				253A422D1CB5D03A00CE0524 /* hinAPI.swift */,
+				258C1EFB1CB700A1001C64CE /* Image.swift */,
 				253A42291CB5C87C00CE0524 /* HomePageViewController.swift */,
+				253A42271CB5C6A100CE0524 /* GalleryViewController.swift */,
 				253A42141CB5C0C600CE0524 /* Main.storyboard */,
 				253A421A1CB5C0C600CE0524 /* Assets.xcassets */,
 				253A421C1CB5C0C600CE0524 /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				253A422A1CB5C87C00CE0524 /* HomePageViewController.swift in Sources */,
+				258C1EFC1CB700A1001C64CE /* Image.swift in Sources */,
+				253A422E1CB5D03A00CE0524 /* hinAPI.swift in Sources */,
 				253A42281CB5C6A100CE0524 /* GalleryViewController.swift in Sources */,
 				253A42111CB5C0C600CE0524 /* AppDelegate.swift in Sources */,
 				253A42191CB5C0C600CE0524 /* hinder.xcdatamodeld in Sources */,
@@ -294,6 +302,7 @@
 				253A42241CB5C0C600CE0524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
